@@ -2,7 +2,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 pkgname=protobuf
 _gemname=google-protobuf
-pkgver=3.5.2
+pkgver=3.6.0
 pkgrel=0
 pkgdesc="Library for extensible, efficient structure packing"
 url="https://github.com/google/protobuf"
@@ -87,7 +87,7 @@ vim() {
 		"$subpkgdir"/usr/share/vim/vimfiles/syntax/proto.vim
 }
 
-sha512sums="09d10cf0c07a0ba249428bbf20f5dbed840965fa06b3c09682f286a4dee9d84bb96f3b5b50e993d48ef1f20440531255ce7d0e60a648bf3fe536a5f2b0b74181  protobuf-3.5.2.tar.gz
+sha512sums="46df0187e5c9e7d213930d916f6c89e7a41eca1aaac228d8f56e3f784598a9f323d7cc2d3cf20668ceb776d3237c4eccf685ef8d7808f09107fa8e441f9899f4  protobuf-3.6.0.tar.gz
 b321cf82a959263d3173cc1c5cce4c77d4720f5dd824f20c98abb94f11eccf2907afce8b8a86340b4fc1bd1c7d5df1afca4672c17a97feb089521e167b20c70f  musl-fix.patch
 e09f83b6cd1c4d046390704333f72825166b841474f37ac5181ae7a67c9acc6fe6098660064890517c41380544e4cac7cb73acc2815b7a2decd16ea8fd3fb92b  trim-rakefile.patch
 269184e48fc0b645134a08a0e1e2709970109f283a75cef5e8de9b8b61344d6ca9dea2e7ff15aee26dd8049c5b424fd94262729e7fcc1e688a1d7fc486d9d2e4  adding_release_compareandswap_64-bit_variant.patch"
